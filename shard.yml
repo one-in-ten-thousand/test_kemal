@@ -1,0 +1,18 @@
+name: test_kemal
+version: 0.1.0
+
+authors:
+  - Billy.Zheng <vil963@gmail.com>
+
+targets:
+  test_kemal:
+    main: src/test_kemal.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: 1.2.0
+
+crystal: 1.6.0-dev
+
+license: MIT
